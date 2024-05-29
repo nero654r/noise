@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-image: url('back.png');
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+/****************/
+
+header{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 4px -2px 13px 0px #0000005e;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #fff;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+    color: #333333c9;
+}
+h2 a{
+    color: #333333c9;
+}
+
+h2 i{
+    font-size: 30px;
+    text-shadow: 1px 0px 1px #fff,
+        4px 1px 1px #333333b8;
+        margin-right: 3px;
+}
+
+.tiktok_tag{
+    background-color: #000;
+    color: #fff;
+    box-shadow: -4px -4px 1px #ff0050,
+        4px 4px 1px #00f2ea;
+    padding: 8px;
+    font-weight: bold;
+}
+/****************/
+
+section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+section h1{
+    font-size: 3rem;
+    color: #333333c9;
+}
+
+section input{
+    width: 110%;
+    display: block;
+    margin: auto;
+}
+
+/****************/
+
+p{
+    color: #333;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h22{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+section{
+    display: block;
+    margin-top: 100px;
+}
+
+.tt5{
+    margin-top: 120px;
+    display: block;
+    font-size: 25px;
+}
+
+
+
+.div{
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    width: 50%;
+    font-size: 20px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border: 2px solid rgb(128, 128, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 8px;
+}
